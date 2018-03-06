@@ -1,0 +1,81 @@
+.cont-workshop{
+  background-color: #efefef;
+  min-height:100vh;
+  overflow:auto;
+}
+
+.workshop-list-wrapper{
+  max-width: 1000px;
+  width:100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.workshop-item{
+  width: calc((100% - 40px)/3);
+  background-color:white;
+  height:500px;
+  margin-bottom: 20px;
+  float:left;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+}
+
+.workshop-item:nth-child(3n+1), .workshop-item:nth-child(3n+2){
+  margin-right:20px;
+}
+
+.workshop-img-wrapper{
+  position: relative;
+  height:200px;
+  width: 100%;
+  background-color: grey;
+}
+
+.workshop-img{
+  width:100%;
+}
+
+.workshop-item-text{
+  display: block;
+  width: 100%;
+}
+
+.workshop-item-wrapper{
+  padding:20px;
+  position: relative;
+}
+
+.item-title{
+  position: absolute;
+  color:white;
+  font-size:20px;
+  font-weight:700;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.workshop-item-text{
+  margin-top:10px;
+  font-size:14px;
+}
+
+.item-desc{
+  text-align: center;
+  font-size:14px;
+}
+
+.workshop-icon{
+  margin-right: 10px;
+  color: #ff5a62;
+}
+
+.workshop-btn{
+  margin-top:50px;
+}
+
+.item-vacancy{
+  margin-top:20px;
+}
