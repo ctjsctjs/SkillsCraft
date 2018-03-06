@@ -80,7 +80,7 @@ a, a:hover, a:active, a:visited{
   width: 100%;
   margin: 0 auto;
   border: 1px solid;
-  border-radius: 2px;
+  border-radius: 20px;
   cursor: pointer;
   font-size: 14px;
   font-weight: 700;
@@ -213,6 +213,7 @@ a, a:hover, a:active, a:visited{
   left:0;
   height:60px;
   padding: 0 20px;
+  z-index:10;
 }
 
 .nav-logo{
@@ -229,8 +230,7 @@ a, a:hover, a:active, a:visited{
   padding:0 20px;
 }
 
-.search-input{
-  float:right;
+.input{
   height:40px;
   border: 1px solid #efefef;
   border-radius: 20px;
@@ -243,7 +243,11 @@ a, a:hover, a:active, a:visited{
   transition: border 400ms ease;
 }
 
-.search-input:focus{
+.search-input{
+  float:right;
+}
+
+.input:focus{
   border: 1px solid #ff5a62;
 }
 
@@ -272,13 +276,13 @@ a, a:hover, a:active, a:visited{
 
 
 .banner{
-  height: 250px;
+  height: 150px;
   width:100%;
   background: url("../img/background.svg") no-repeat center center;
   background-color: #efefef;
   background-size: cover;
   text-align: center;
-  padding-top:100px;
+  padding-top:54px;
 }
 
 .banner-title{
