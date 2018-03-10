@@ -42,7 +42,7 @@
 }
 
 .index-link-item{
-  width: 284px;
+  width: calc((100% / 3) - 16px);
   padding: 0 10px;
   /*background-color:rgba(255,255,255,0.2);*/
   border-radius: 5px;
@@ -59,4 +59,10 @@
 
 .index-link-item:nth-child(-n+2){
   margin-right:24px;
+}
+
+@media (max-width: 600px) {
+  .index-link-item{
+    width: 100%;
+    margin:10px 0;
 }
