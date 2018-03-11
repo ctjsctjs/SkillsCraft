@@ -5,9 +5,10 @@
 }
 
 .cont-item-wrapper{
-  max-width:1000px;
+  max-width:1024px;
   margin: 0 auto;
   padding-top: 100px;
+  overflow: auto;
 }
 
 .cont-left{

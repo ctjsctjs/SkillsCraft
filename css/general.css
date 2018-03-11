@@ -95,6 +95,26 @@ a, a:hover, a:active, a:visited{
   transition: border 400ms ease;
 }
 
+.button-small{
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  transition: 100ms ease;
+  white-space: nowrap;
+  color: #ff5a62;
+  -webkit-transition: border 400ms ease;
+  -ms-transition: border 400ms ease;
+  transition: border 400ms ease;
+}
+
+.button-small:hover {
+  color: #ff848a;
+  -webkit-transition: border 200ms ease;
+  -ms-transition: border 200ms ease;
+  transition: border 200ms ease;
+}
+
 .button-fat{
   height: 50px;
   width: 100%;
@@ -151,8 +171,8 @@ a, a:hover, a:active, a:visited{
 }
 
 .btn-white{
-  background-color:white;
-  border: 2px solid white;
+  background-color:#efefef;
+  border: 1px solid white;
   /*color:#212121;*/
   color: #ff5a62;
 
@@ -162,14 +182,14 @@ a, a:hover, a:active, a:visited{
 }
 
 .btn-white:hover{
-  background-color:transparent;
-  border: 2px solid white;
-  color: white;
+  background-color:white;
+  border: 1px solid white;
+  color: #ff848a;
 }
 
 .btn-red{
   background-color:#ff5a62;
-  border: 2px solid white;
+  border: transparent;
   /*color:#212121;*/
   color: white;
 
@@ -181,6 +201,7 @@ a, a:hover, a:active, a:visited{
 .btn-red:hover{
   background-color:#ff848a;
 }
+
 
 .loader {
   z-index: 1;
@@ -245,6 +266,8 @@ a, a:hover, a:active, a:visited{
 
 .search-input{
   float:right;
+  z-index: 1;
+
 }
 
 .input:focus{
@@ -262,6 +285,7 @@ a, a:hover, a:active, a:visited{
   color:#191919;
   padding-top:2px;
   font-size:20px;
+  z-index: 1;
 
   -webkit-transition: border 400ms ease;
   -ms-transition: border 400ms ease;

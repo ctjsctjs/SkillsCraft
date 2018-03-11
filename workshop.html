@@ -19,12 +19,15 @@
   <div class="navigation">
     <div class="nav-logo-wrapper">
       <a href="index.html"><img class="nav-logo" src="img/logoWhite.svg"></a>
+      <form class="nav-logout-wrapper" action="./index.html">
+        <button class="button button-logout btn-white" type="submit" value="Submit">Logout</button>
+      </form>
     </div>
   </div>
   <div class="searchbar">
-    <form action="/action_page.php">
+    <form action="./workshop.html">
       <button class="button-round search-submit" type="submit" value="Submit"><i class="fas fa-arrow-right"></i></button >
-        <input class="input search-input" type="text" name="workshops" placeholder="Crafting, Sewing...">
+        <input class="input search-input" type="text" name="search" placeholder="Crafting, Sewing...">
       </form>
     </div>
     <div class="banner">
@@ -32,63 +35,11 @@
     </div>
 
     <div class="wrapper cont-workshop">
-
-      <ul class="workshop-list-wrapper">
-        <li class="workshop-item">
-          <div class="workshop-img-wrapper">
-            <img class="workshop-img" src="">
-            <span class="item-title">Wood</span>
-          </div>
-          <div class="workshop-item-wrapper">
-            <span class="item-desc">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pharetra enim, eu mollis magna. Mauris nec lobortis ipsum. Proin tempor aliquam pellentesque.
-            </span>
-            <span class="workshop-item-text item-vacancy"><i class="far fa-user workshop-icon"></i>24/50</span>
-            <span class="workshop-item-text item-location"><i class="fas fa-map-marker workshop-icon"></i>SR1C</span>
-            <span class="workshop-item-text item-date"><i class="far fa-calendar workshop-icon"></i>24 Aug 2017</span>
-            <span class="workshop-item-text item-time"><i class="far fa-clock workshop-icon"></i>Every Wed, 15:00 - 16:00</span>
-            <div class="workshop-btn button btn-red">View</div>
-          </div>
-        </li>
-
-        <li class="workshop-item">
-          <div class="workshop-img-wrapper">
-            <img class="workshop-img" src="">
-            <span class="item-title">Wood</span>
-          </div>
-          <div class="workshop-item-wrapper">
-            <span class="item-desc">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pharetra enim, eu mollis magna. Mauris nec lobortis ipsum. Proin tempor aliquam pellentesque.
-            </span>
-            <span class="workshop-item-text item-vacancy"><i class="far fa-user workshop-icon"></i>24/50</span>
-            <span class="workshop-item-text item-location"><i class="fas fa-map-marker workshop-icon"></i>SR1C</span>
-            <span class="workshop-item-text item-date"><i class="far fa-calendar workshop-icon"></i>24 Aug 2017</span>
-            <span class="workshop-item-text item-time"><i class="far fa-clock workshop-icon"></i>Every Wed, 15:00 - 16:00</span>
-            <a href="./item.html"><div class="workshop-btn button btn-red">View</div></a>
-          </div>
-        </li>
-
-        <li class="workshop-item">
-          <div class="workshop-img-wrapper">
-            <img class="workshop-img" src="">
-            <span class="item-title">Wood</span>
-          </div>
-          <div class="workshop-item-wrapper">
-            <span class="item-desc">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pharetra enim, eu mollis magna. Mauris nec lobortis ipsum. Proin tempor aliquam pellentesque.
-            </span>
-            <span class="workshop-item-text item-vacancy"><i class="far fa-user workshop-icon"></i>24/50</span>
-            <span class="workshop-item-text item-location"><i class="fas fa-map-marker workshop-icon"></i>SR1C</span>
-            <span class="workshop-item-text item-date"><i class="far fa-calendar workshop-icon"></i>24 Aug 2017</span>
-            <span class="workshop-item-text item-time"><i class="far fa-clock workshop-icon"></i>Every Wed, 15:00 - 16:00</span>
-            <div class="workshop-btn button btn-red">View</div>
-          </div>
-        </li>
-
-      </ul>
-
+      <ul class="workshop-list-wrapper"></ul>
     </div>
 
     <script src="js/modal.js"></script>
+    <script src="js/workshops.js"></script>
+
   </body>
   </html>

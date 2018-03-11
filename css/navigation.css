@@ -307,3 +307,35 @@
     display: none;
   }
 }
+
+.button-logout{
+  width:100px;
+  padding-top: 0px;
+  float:right;
+}
+
+.nav-logout-wrapper{
+  float:right;
+  display:block;
+  margin-top:10px;
+}
+
+.nav-links{
+  margin: -40px auto;
+  width: max-content;
+}
+
+.nav-links li{
+  display: inline-block;
+  color:white;
+  padding:22px;
+}
+
+.nav-links li a{
+  color:#efefef;
+  font-size:13px;
+}
+
+.nav-links li a:hover{
+  color:white;
+}

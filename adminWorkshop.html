@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="css/navigation.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/workshop.css">
-  <link rel="stylesheet" href="css/dashboard.css">
-
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <!--<link rel="stylesheet" href="css/fontawesome-all.min.css">-->
 
@@ -20,7 +18,7 @@
 <body>
   <div class="navigation">
     <div class="nav-logo-wrapper">
-      <a href="dashboard.html"><img class="nav-logo" src="img/logoWhite.svg"></a>
+      <a href="index.html"><img class="nav-logo" src="img/logoWhite.svg"></a>
       <form class="nav-logout-wrapper" action="./index.html">
         <button class="button button-logout btn-white" type="submit" value="Submit">Logout</button>
       </form>
@@ -31,30 +29,27 @@
       <li><a href="Category">Category</a></li>
     </ul>
   </div>
+
   <div class="searchbar">
     <form action="./workshop.html">
       <button class="button-round search-submit" type="submit" value="Submit"><i class="fas fa-arrow-right"></i></button >
         <input class="input search-input" type="text" name="search" placeholder="Crafting, Sewing...">
       </form>
     </div>
-  </div>
-  <div class="banner">
-    <h class="banner-title">Browse all workshops</h>
-  </div>
 
-  <div class="wrapper cont-workshop">
+    <div class="banner">
+      <h class="banner-title">Browse all workshops</h>
+    </div>
 
-    <ul class="dashboard-list-wrapper">
-      <li class="dashboard-item dashboard-title">
-        <span class="col name-title">Name</span>
-        <span class="col contact-title">Contact</span>
-        <span class="col workshops-title">Qualitications</span>
-      </li>
-    </ul>
-  </div>
+    <div class="wrapper cont-workshop">
+      <div class="row row-btn">
+        <a class="button-round btn-add-workshop btn-red" href="addnew.html"><i class="fas fa-plus"></i></a>
+      </div>
+      <ul class="workshop-list-wrapper"></ul>
+    </div>
 
-  <script src="js/modal.js"></script>
-  <script src="js/dashboard.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/workshops.js"></script>
 
-</body>
-</html>
+  </body>
+  </html>
